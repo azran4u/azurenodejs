@@ -7,7 +7,7 @@ const port = config.server.port;
 // define a route handler for the default home page
 app.get("/", (req, res) => {
   // render the index template
-  res.status(200).send("ok");
+  res.status(200).send("dev");
 });
 
 // start the express server
