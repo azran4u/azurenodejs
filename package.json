@@ -10,8 +10,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "npm run build && node dist/server.js",
-    "start:prod": "node dist/server.js"
+    "start:dev": "npm run build && node dist/server.js",
+    "start": "node dist/server.js"
   },
   "dependencies": {
     "express": "4.17.1"
