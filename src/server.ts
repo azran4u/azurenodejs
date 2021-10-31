@@ -1,7 +1,8 @@
 import express from "express";
-import path from "path";
+import { config } from "./config";
+
 const app = express();
-const port = 8090; // default port to listen
+const port = config.server.port;
 
 // define a route handler for the default home page
 app.get("/", (req, res) => {
