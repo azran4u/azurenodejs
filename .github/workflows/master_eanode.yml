@@ -49,7 +49,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'eanode'
+          app-name: 'myfirstnodejsazure'
           slot-name: 'dev'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B4D62C8BD3EF48C29C57116CFB8DD29A }}
           package: .
