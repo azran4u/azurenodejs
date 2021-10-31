@@ -5,7 +5,7 @@ const app = express();
 const port = config.server.port;
 
 app.get("/", (req, res) => {
-  res.status(200).send("dev");
+  res.status(200).send("v2");
 });
 
 app.listen(port, () => {
